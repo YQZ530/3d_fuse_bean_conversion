@@ -4,9 +4,9 @@ This repository converts photographed 3D fuse-bead instructions into one consoli
 
 ## Board width
 
-The target board is **54 beads wide**. The generated pattern uses **52 active columns**, leaving one empty clearance column on the left and right. Existing output filenames therefore use `52x<height>` (for example, `sunflowers-52x59.png`).
+The target board is **52 beads wide**. The generated pattern uses **52 active columns**, leaving one empty clearance column on the left and right. Existing output filenames therefore use `52x<height>` (for example, `sunflowers-52x59.png`).
 
-If all 54 columns should contain beads instead of reserving the two edge columns, the current solver and renderer constants must be changed; the checked-in results were verified at 52 active columns.
+If all 52 columns should contain beads instead of reserving the two edge columns, the current solver and renderer constants must be changed; the checked-in results were verified at 52 active columns.
 
 ## Repository layout
 
